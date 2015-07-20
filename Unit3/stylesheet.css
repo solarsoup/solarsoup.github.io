@@ -1,0 +1,38 @@
+body {
+	text-align: center;
+	background-color:#CCCCCC;
+}
+h1 {
+	font-family: "Times New Roman" , Times, serif;
+	font-style: oblique; 
+
+}
+hr {
+	width:60%;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+#slogan {
+	font-style: italic;
+}
+#background {
+	text-align: center;
+}
+#listinfo {
+	margin: auto;
+	width: 25%;
+	border: 3px solid #990000;
+	padding: 10px;
+}
+#infolist {
+	font-weight: 900;
+}
+#list {
+	list-style-position: inside;
+	list-style-type: disc;
+	text-indent: -1em;
+	padding-left: 1em;
+	}
