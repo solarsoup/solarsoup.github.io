@@ -1,9 +1,23 @@
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900);
 body {
 	text-align: center;
 	background-color:#CCCCCC;
 }
+#navbar{
+	list-style-type: disc;
+	list-style-position: inside;
+	overflow: hidden;
+}
+#navlist {
+	float: right;
+}
+a:hover, a:active {
+	background-color: #990000;
+}
+#navlist {float: right;}
+
 h1 {
-	font-family: "Times New Roman" , Times, serif;
+	font-family: "Times New Roman", Times, serif;
 	font-style: oblique; 
 
 }
@@ -35,4 +49,5 @@ img {
 	list-style-type: disc;
 	text-indent: -1em;
 	padding-left: 1em;
+	font-family: 'Playfair Display', serif;
 	}
