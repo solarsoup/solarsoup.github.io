@@ -1,33 +1,42 @@
 @import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900);
 body {
 	text-align: center;
-	background-color:#CCCCCC;
 }
-#navbar{
-	list-style-type: disc;
-	list-style-position: inside;
-	overflow: hidden;
-}
-#navlist {
-	float: right;
-}
-a:hover, a:active {
-	background-color: #990000;
-}
-#navlist {float: right;}
-
 h1 {
 	font-family: "Times New Roman", Times, serif;
 	font-style: oblique; 
-
 }
 hr {
 	width:60%;
 }
 
-img {
-	max-width: 100%;
-	height: auto;
+#logo {
+	width: 100%;
+	max-width: 1800px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#logo img {
+	width: 100%;
+}
+a:active, a:link {
+	color: #990000;
+	text-decoration: none;
+}
+a:visited {
+	color: #FFCC00;
+}
+.navlist li {
+	display: inline;
+	padding: .2em;
+}
+#navbar {
+	list-style: none;
+	margin: 0;
+	padding:; 0;
+	text-transform: uppercase;
+	position: relative;
 }
 #slogan {
 	font-style: italic;
@@ -50,4 +59,3 @@ img {
 	text-indent: -1em;
 	padding-left: 1em;
 	font-family: 'Playfair Display', serif;
-	}
